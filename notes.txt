@@ -13,5 +13,18 @@ Why rust?
 
 # vars.rs
 - variables are immutable by default (can't reassign them)
+    - like const
 - variables hold primitive data or referenced to data
 - rust is a block-scoped language (a variable pertains to a scope (function))
+
+# types.rs
+- integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128
+- floats: f32, f64
+- boolean: bool
+- characters: char
+- tuples: ()
+- arrays, fixed size:
+
+- rust is a statically typed langueage (type of variables need to be known at compile time)
+    - but the type can usually be inferred by the compiler
+    
