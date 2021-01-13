@@ -1,0 +1,17 @@
+What is rust?
+    - Systems language
+
+Why rust?
+    - Garbage collection
+        - no need to manage it 
+        - checks on demand when needed (different from Java)
+        - efficient, best of both worlds
+    - Package manager, Cargo (like pip from python)
+
+# print.rs
+- need to have a placeholder for printing variables
+
+# vars.rs
+- variables are immutable by default (can't reassign them)
+- variables hold primitive data or referenced to data
+- rust is a block-scoped language (a variable pertains to a scope (function))
