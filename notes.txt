@@ -24,7 +24,30 @@ Why rust?
 - characters: char
 - tuples: ()
 - arrays, fixed size:
-
 - rust is a statically typed langueage (type of variables need to be known at compile time)
     - but the type can usually be inferred by the compiler
+
+# string.rs
+- 2 types of strings
+    1. primitive string: immutable, fixed length
+    2. String(): growable, heap allocated
+
+# tuples.rs
+- group together values of different types
+- max of 12 elements
+
+# arrays.rs
+- fixed list where elements are the same type
+
+# pointer_ref.rs
+- points to a resource! in memory
+- with primitive data types when you assign a varaible to a piece of data, the 
+  first variable holds that value 
+- with non-primitive, need to use reference (&) to point to the resource
+
+# structs.rs
+- used to create custom datatypes
+
+# enums.rs
+- enums are datatypes that have few definite values
     
